@@ -20,3 +20,14 @@ counter += 1
 end
 return people
 end
+
+def printer(p)
+  batch_badge_creator(p).each do |badge|
+    puts badge
+  end
+
+room_assignment(att).each do |assign|
+  puts assign
+end
+
+end
