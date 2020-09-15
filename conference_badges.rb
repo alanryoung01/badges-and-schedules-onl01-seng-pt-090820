@@ -16,3 +16,7 @@ def room_assignment(att)
   counter = 1
   att.each do |name|
     people.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+counter += 1
+end
+return people
+end
