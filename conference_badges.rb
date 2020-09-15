@@ -21,7 +21,7 @@ end
 return people
 end
 
-def printer(p)
+def printer(att)
   batch_badge_creator(p).each do |badge|
     puts badge
   end
